@@ -13,6 +13,7 @@ function CartItem({
   onPlusPizza,
   onMinusPizza,
 }) {
+  
   const handleRemove = () => {
     onRemovePizza(id);
   };
@@ -24,6 +25,7 @@ function CartItem({
   const handleMinus = () => {
     onMinusPizza(id);
   };
+
   return (
     <div className="cart__item">
       <div className="cart__item-img">
